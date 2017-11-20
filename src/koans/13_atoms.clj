@@ -3,6 +3,7 @@
 
 (def atomic-clock (atom 0))
 
+;; TODO cleanup because we deleted refs.
 (meditations
   "Atoms are like refs"
   (= __ @atomic-clock)

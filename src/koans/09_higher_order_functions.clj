@@ -12,10 +12,10 @@
   (= __ (map nil? [:a :b nil :c :d]))
 
   "A filter can be strong"
-  (= __ (filter (fn [x] false) '(:anything :goes :here)))
+  (= __ (filter (fn [x] false) [:anything :goes :here]))
 
   "Or very weak"
-  (= __ (filter (fn [x] true) '(:anything :goes :here)))
+  (= __ (filter (fn [x] true) [:anything :goes :here]))
 
   "Or somewhere in between"
   (= [10 20 30] (filter (fn [x] __) [10 20 30 40 50 60 70 80]))

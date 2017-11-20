@@ -3,6 +3,7 @@
 
 (defn square [x] (* x x))
 
+;; TODO remvoe symbol
 (meditations
   "One may know what they seek by knowing what they do not seek"
   (= [__ __ __] (let [not-a-symbol? (complement symbol?)]

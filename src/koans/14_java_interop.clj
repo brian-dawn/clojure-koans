@@ -1,6 +1,7 @@
 (ns koans.20-java-interop
   (:require [koan-engine.core :refer :all]))
 
+;; TODO maybe no need for this file either?
 (meditations
   "You may have done more with Java than you know"
   (= __ (class "warfare")) ; hint: try typing (javadoc "warfare") in the REPL

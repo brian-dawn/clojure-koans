@@ -34,9 +34,9 @@
                         :else __)))
 
   "Or your fate may be sealed"
-  (= 'doom (if-not (zero? __)
-          'doom
-          'more-doom))
+  (= :doom (if-not (zero? __)
+          :doom
+          :more-doom))
 
   "In case of emergency, go fast"
   (= "pretty fast"
